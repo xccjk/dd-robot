@@ -135,6 +135,7 @@ class Robot {
     if (!this[key]) {
       this[key] = value
     }
+    return this;
   }
 }
 
